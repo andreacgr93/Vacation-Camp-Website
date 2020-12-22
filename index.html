@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tus Vacaciones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="bar">Tu Campamento</h1>
+      <nav id="menu">
+        <div class="bar">
+          <a href="#beach">Playa</a>
+          <a href="#park">Parque</a>
+          <a href="#river">Río</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="principal">
+        <div id="motto">
+          <h2>Te llevamos a pasar tus mejores momentos...</h2>
+          <p>Escoge un lugar, la cantidad de tiempo y te llevamos</p>
+        </div>
+      </section>
+
+      <section id="beach">
+        <div class="container">
+          <div class="principal-picture">
+            <img src="./images/playa1.JPG" alt="Playa">
+          </div>
+          <div class="description">
+            <h2>Playa</h2>
+            <p>Ve a la playa por una semana, te llevamos en bote a distintos lugares...</p>
+          </div>
+          <div class="secondary-picture">
+            <img src="./images/playa2.JPG" alt="Olas">
+          </div>
+        </div>
+      </section>
+
+      <section id="park">
+        <div class="container">
+          <div class="principal-picture">
+            <img src="./images/parque.JPG" alt="Parque">
+          </div>
+          <div class="description">
+            <h2>Parque</h2>
+            <p>Paseos de un día al parque y disfruta de la naturaleza</p>
+          </div>
+          <div class="secondary-picture">
+            <img src="./images/parque2.JPG" alt="Aventura">
+          </div>
+        </div>
+      </section>
+
+      <section id="river">
+        <div class="container">
+          <div class="principal-picture">
+            <img src="./images/rio.JPG" alt="Río">
+          </div>
+          <div class="description">
+            <h2>Río</h2>
+            <p>Quédate en un campamento y disfruta del río</p>
+          </div>
+          <div class="secondary-picture">
+            <img src="./images/rio1.JPG" alt="Diversión">
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="information">
+        <div class="direction">
+          <h3>Dirección: </h3>
+          <address>
+            Edif 5 Av 1<br>
+            Provincia<br>
+            Código Postal 123123.
+          </address>
+        </div>
+        <div class="tel">
+          <h3>Teléfonos: </h3>
+          123-12312412
+        </div>
+      </div>
+      <br>
+      <div class="contact">
+        <form>
+          <fieldset>
+            <legend><h3>Contacto</h3></legend>
+            <p>
+              <label for="email">Email:</label><br>
+              <input type="email" name="email" id="email" placeholder="Ej: andrea@gmail.com">
+            </p>
+            <p>
+              <label for="descritcion">Descripción:</label><br>
+              <textarea id="comentary"></textarea>
+            </p>
+            <p>
+              <button>Enviar</button>
+            </p>
+          </fieldset>
+        </form>
+      </div>
+    </footer>
+  
+  </body>
+</html>
